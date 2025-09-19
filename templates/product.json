@@ -28,8 +28,8 @@
             "show_taxes_notice": false
           }
         },
-        "zoorix_cross_sell_zrx_bundles_nmUNpq": {
-          "type": "shopify://apps/zoorix-cross-sell/blocks/zrx-bundles/51fffd07-f9df-4d6a-b901-6d14b243dcad",
+        "zoorix_cross_sell_zrx_vd_mLLLcm": {
+          "type": "shopify://apps/zoorix-cross-sell/blocks/zrx-vd/51fffd07-f9df-4d6a-b901-6d14b243dcad",
           "settings": {
             "offer_id": ""
           }
@@ -88,7 +88,7 @@
         "vendor",
         "title",
         "price",
-        "zoorix_cross_sell_zrx_bundles_nmUNpq",
+        "zoorix_cross_sell_zrx_vd_mLLLcm",
         "payment_terms",
         "separator",
         "description",
