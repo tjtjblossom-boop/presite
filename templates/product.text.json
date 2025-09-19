@@ -142,9 +142,10 @@
         "image_with_text_yhyKdy": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Screenshot2025-02-28at7.13.58PM.webp",
             "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
+            "title": "Custom Bible Verse",
+            "content": "<p>Write your custom bible verse in the section above, right before adding to cart<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -153,9 +154,10 @@
         "image_with_text_yNnHRE": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Screenshot2025-02-28at7.14.07PM.webp",
             "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
+            "title": "High-Quality Material",
+            "content": "<p>Durable, long-lasting material<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -185,14 +187,14 @@
         "heading_VhXUBc": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "A Gift They Will Cherish Forever",
             "heading_tag": "h1"
           }
         },
         "richtext_jXnPAa": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Whether for Valentines Day, Birthdays, Anniversaries, or just a special occasion, our personalized bible verse cross will leave your loved one speechless upon opening.<br/><br/></p>"
           }
         }
       },
@@ -203,6 +205,7 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/JWLN0721.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
