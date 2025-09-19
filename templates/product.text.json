@@ -18,11 +18,15 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+            "heading_tag": "h3"
+          }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "show_taxes_notice": false
+          }
         },
         "payment_terms": {
           "type": "payment_terms",
@@ -34,11 +38,19 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -46,15 +58,24 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {}
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
         },
         "complementary_products": {
           "type": "complementary_products",
-          "settings": {}
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
         }
       },
       "block_order": [
@@ -69,15 +90,130 @@
         "buy_buttons",
         "complementary_products"
       ],
-      "settings": {}
+      "settings": {
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {}
+    "image_with_text_MjVJhH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ebq4T3": {
+          "type": "heading",
+          "settings": {
+            "text": "Carry His Word, Wear His Love",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_KAHMgV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Keep your faith close with our personalized bible verse cross, engraved with a Bible verse that speaks to your heart. A meaningful, stylish piece that carries the power of scripture wherever you go, serving as a daily reminder of His love and guidance.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ebq4T3",
+        "richtext_KAHMgV"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Screenshot2025-02-28at7.29.56PM.webp",
+        "mobile_image": "shopify://shop_images/Screenshot2025-02-28at7.29.56PM.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "images_with_text_scroll_UNF47m": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_yhyKdy": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#2",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_yNnHRE": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#3",
+            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_yhyKdy",
+        "image_with_text_yNnHRE"
+      ],
+      "name": "t:sections.images_with_text_scroll.presets.images_with_text_scroll.name",
+      "settings": {
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "background": "#ffffff",
+        "text_color": "#3f3f3f",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_zArKR7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VhXUBc": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_jXnPAa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VhXUBc",
+        "richtext_jXnPAa"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "image_with_text_MjVJhH",
+    "images_with_text_scroll_UNF47m",
+    "image_with_text_zArKR7"
   ]
 }
