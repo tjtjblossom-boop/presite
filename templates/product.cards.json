@@ -280,6 +280,53 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
+    },
+    "faq_WwLEFa": {
+      "type": "faq",
+      "blocks": {
+        "question_V3DHLx": {
+          "type": "question",
+          "settings": {
+            "question": "How Do I Upload My Custom Image & Text?",
+            "answer": "<p>Upload your custom image and text in the section above, right before adding to cart!<br/><br/></p>"
+          }
+        },
+        "question_bgWVUz": {
+          "type": "question",
+          "settings": {
+            "question": "Do I Need to Crop My Image Before Uploading?",
+            "answer": "<p>No, we will crop your image for you! Please do not pre-crop your photo since we will have to resize it which will increase processing time.<br/><br/></p>"
+          }
+        },
+        "question_3cDiHB": {
+          "type": "question",
+          "settings": {
+            "question": "Shipping Information?",
+            "answer": "<p>We ship to the U.S, Canada, UK, and Germany. Once shipped, delivery time is 4-8 days.</p><p>Issues with providing customizations can cause up to a 7 day delay on your order. Please make sure your image and text are attached correctly at checkout!</p>"
+          }
+        },
+        "question_zQXgkE": {
+          "type": "question",
+          "settings": {
+            "question": "Have A Different Question?",
+            "answer": "<p>You can contact us via our contact page, and we would be happy to assist you!<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_V3DHLx",
+        "question_bgWVUz",
+        "question_3cDiHB",
+        "question_zQXgkE"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -288,6 +335,7 @@
     "image_with_text_HdTAng",
     "images_with_text_scroll_TGXBxn",
     "image_with_text_Vc6Lzh",
-    "rich_text_fm3AY4"
+    "rich_text_fm3AY4",
+    "faq_WwLEFa"
   ]
 }
