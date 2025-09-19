@@ -18,11 +18,15 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+            "heading_tag": "h3"
+          }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "show_taxes_notice": false
+          }
         },
         "payment_terms": {
           "type": "payment_terms",
@@ -34,11 +38,19 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -46,15 +58,24 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {}
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
         },
         "complementary_products": {
           "type": "complementary_products",
-          "settings": {}
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
         }
       },
       "block_order": [
@@ -69,15 +90,237 @@
         "buy_buttons",
         "complementary_products"
       ],
-      "settings": {}
+      "settings": {
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {}
+    "image_with_text_GG3TiM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_G7wcYG": {
+          "type": "heading",
+          "settings": {
+            "text": "Because Mom’s Story Matters",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_kmxFfJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Give Mom the chance to leave behind more than memories — let her write her heart into every page. Her laughter, her struggles, her love… captured forever in her own words, creating a timeless keepsake for you and generations to come<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_G7wcYG",
+        "richtext_kmxFfJ"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Screenshot_2025-04-08_at_11.36.06_AM.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "images_with_text_scroll_63afjB": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_fhUFjP": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-08_at_11.40.31_AM.webp",
+            "subheading": "",
+            "title": "Meaningful Prompts that Turn Memories into a Legacy",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_hqiVU3": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-08_at_11.40.24_AM.webp",
+            "subheading": "",
+            "title": "#2",
+            "content": "<p>A Lifetime of Memories, One Thoughtful Question at a Time<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_RepbJa": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-04-08_at_11.39.54_AM.webp",
+            "subheading": "",
+            "title": "She’s Lived a Beautiful Story — This Journal Helps her Write it Down",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_fhUFjP",
+        "image_with_text_hqiVU3",
+        "image_with_text_RepbJa"
+      ],
+      "name": "t:sections.images_with_text_scroll.presets.images_with_text_scroll.name",
+      "settings": {
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "background": "#ffffff",
+        "text_color": "#242424",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_yfJz38": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Y9mRLG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_bmg9Wg": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_AzfmXm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Y9mRLG",
+        "heading_bmg9Wg",
+        "richtext_AzfmXm"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "scrolling_content_RDTBqx": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_QCpCgn": {
+          "type": "text",
+          "settings": {
+            "text": "Welcome to our shop"
+          }
+        },
+        "text_GqUN7p": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our products"
+          }
+        }
+      },
+      "block_order": [
+        "text_QCpCgn",
+        "text_GqUN7p"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
+    },
+    "faq_gnUL89": {
+      "type": "faq",
+      "blocks": {
+        "category_yAAHxg": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_k3NY9Q": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question_cDntbg": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question_rjwrHp": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_yAAHxg",
+        "question_k3NY9Q",
+        "question_cDntbg",
+        "question_rjwrHp"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "image_with_text_GG3TiM",
+    "images_with_text_scroll_63afjB",
+    "image_with_text_yfJz38",
+    "scrolling_content_RDTBqx",
+    "faq_gnUL89"
   ]
 }
