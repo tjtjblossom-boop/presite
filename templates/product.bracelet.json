@@ -107,34 +107,28 @@
     "image_with_text_3qJdn3": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_ritdN7": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_4rVyCR": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "Photo Projection",
             "heading_tag": "h1"
           }
         },
         "richtext_rEB4YV": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Hold up to your eye and look into the middle stone to see your custom photo<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "subheading_ritdN7",
         "heading_4rVyCR",
         "richtext_rEB4YV"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/6becc21f-81ab-40b6-a36f-bc809660862b.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
