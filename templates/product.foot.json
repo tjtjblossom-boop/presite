@@ -242,6 +242,38 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "image_with_text_Cmf4mn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mJW784": {
+          "type": "heading",
+          "settings": {
+            "text": "Durable, long-lasting material",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_xkWyAG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether for Mother's Day, Birthdays, Anniversaries, or just a special occasion, our custom footprint necklace will leave your loved one speechless upon opening.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mJW784",
+        "richtext_xkWyAG"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Screenshot_2025-02-20_at_12.26.21_AM.webp",
+        "mobile_image": "shopify://shop_images/Screenshot_2025-02-20_at_12.26.21_AM.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
@@ -249,6 +281,7 @@
     "image_with_text_hXJMLB",
     "image_with_text_3wEzm8",
     "image_with_text_fwYVkT",
-    "images_with_text_scroll_t3UAMw"
+    "images_with_text_scroll_t3UAMw",
+    "image_with_text_Cmf4mn"
   ]
 }
