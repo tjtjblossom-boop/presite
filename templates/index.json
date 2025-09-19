@@ -40,8 +40,10 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "subheading": "Tell your story",
-            "title": "Image slide",
+            "image": "shopify://shop_images/0dea505df1edd8719c260598782a46e88f698728_fd85a126-a25c-41d8-8061-97ddc25528b7.webp",
+            "mobile_image": "shopify://shop_images/0dea505df1edd8719c260598782a46e88f698728_fd85a126-a25c-41d8-8061-97ddc25528b7.webp",
+            "subheading": "Elegance Made Personal",
+            "title": "Custom Creations, Unlimited Possibilities",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
