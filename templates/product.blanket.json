@@ -232,6 +232,62 @@
         "background": "#7e7e7e",
         "text_color": "#ffffff"
       }
+    },
+    "faq_jrKYEz": {
+      "type": "faq",
+      "blocks": {
+        "category_ga6K4f": {
+          "type": "category",
+          "settings": {
+            "title": "",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_aWrM3i": {
+          "type": "question",
+          "settings": {
+            "question": "What type of photos can I use for my custom blanket?",
+            "answer": "<p>You can upload any high-resolution photo, such as family pictures, portraits, or special moments. We recommend using clear and high-quality images for the best printing results. Whether it's a cherished memory or a fun snapshot, your photo will be transformed into a beautiful custom blanket!<br/><br/></p>"
+          }
+        },
+        "question_bFrywR": {
+          "type": "question",
+          "settings": {
+            "question": "How do I upload my photo or custom file?",
+            "answer": "<p>Uploading your photo is simple! Just select the \"Upload Your Photo\" button on the product page, choose your image file from your device, and it will be automatically added to your design. You can upload a single photo or create a collage of multiple images—whichever best fits your vision for the blanket.<br/><br/></p>"
+          }
+        },
+        "question_B3xFxw": {
+          "type": "question",
+          "settings": {
+            "question": "Can I add text or a personalized message to my blanket?",
+            "answer": "<p>Yes! You can add any text or message you'd like to make your blanket even more special. To create a custom design with text, we recommend using Canva or another photo editing website to put together a diagram or image with your desired text. Once you're happy with your design, simply upload the image file, and we’ll print it on your blanket! This way, you can get creative and ensure the message is just how you want it.<br/><br/></p>"
+          }
+        },
+        "question_FGmYb9": {
+          "type": "question",
+          "settings": {
+            "question": "Have A Different Question?",
+            "answer": "<p>You can contact us via our contact page, and we would be happy to assist you!<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_ga6K4f",
+        "question_aWrM3i",
+        "question_bFrywR",
+        "question_B3xFxw",
+        "question_FGmYb9"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -239,6 +295,7 @@
     "related-products",
     "image_with_text_Pb8dVB",
     "images_with_text_scroll_myUYqR",
-    "scrolling_content_L3whxk"
+    "scrolling_content_L3whxk",
+    "faq_jrKYEz"
   ]
 }
