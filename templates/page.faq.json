@@ -1,1 +1,170 @@
-{"sections":{"faq":{"type":"faq","blocks":{"category":{"type":"category","settings":{"title":"Order"}},"question-1":{"type":"question","settings":{"question":"Do you ship overseas?","answer":"<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"}},"question-2":{"type":"question","settings":{"question":"How long will it take to get my orders?","answer":"<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"}},"question-3":{"type":"question","settings":{"question":"Any question?","answer":"<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"}}},"block_order":["category","question-1","question-2","question-3"],"settings":{}}},"order":["faq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "category": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question-3": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category",
+        "question-1",
+        "question-2",
+        "question-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    },
+    "featured_product_qjeciy": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_QexUmB": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_33MaE9": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_LfFFeb": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_qzFjjt": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_6yymBh": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "payment_terms_6YNBKh": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_LBeKAB": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_rc6AtU": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_P9JmwM": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_WiLbA6": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_39RT8j": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_WEyw6K": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_QexUmB",
+        "title_33MaE9",
+        "badges_LfFFeb",
+        "price_qzFjjt",
+        "rating_6yymBh",
+        "payment_terms_6YNBKh",
+        "separator_LBeKAB",
+        "description_rc6AtU",
+        "variant_picker_P9JmwM",
+        "quantity_selector_WiLbA6",
+        "buy_buttons_39RT8j",
+        "pickup_availability_WEyw6K"
+      ],
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "product": "eternal-eyes-necklace",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "Featured product",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "faq",
+    "featured_product_qjeciy"
+  ]
+}
