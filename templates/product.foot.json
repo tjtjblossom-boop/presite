@@ -166,11 +166,43 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "image_with_text_fwYVkT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VNPh8H": {
+          "type": "heading",
+          "settings": {
+            "text": "A Piece of Them, Always With You",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_kEhUXe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our custom footprint necklaces capture the unique print of someone special, creating a timeless keepsake that holds their love and presence close to your heart.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VNPh8H",
+        "richtext_kEhUXe"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Screenshot_2025-02-20_at_12.26.05_AM.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_hXJMLB",
-    "image_with_text_3wEzm8"
+    "image_with_text_3wEzm8",
+    "image_with_text_fwYVkT"
   ]
 }
