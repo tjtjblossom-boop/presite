@@ -183,6 +183,44 @@
         "remove_vertical_spacing": true
       }
     },
+    "image_with_text_n8EpMQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Qw3HAc": {
+          "type": "subheading",
+          "settings": {
+            "text": "All Pieces Made In House"
+          }
+        },
+        "heading_DqpXmp": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Us?",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_kwzDxL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At <em>Made By Me</em>, we take immense pride in the fact that<strong> every part of our process is handled entirely in-house</strong>, right here in the United States. From design to engraving, packaging to shipping, nothing is outsourced. This allows us to maintain complete control over quality, craftsmanship, and customer experience.</p><p>By keeping everything under one roof, we ensure that every piece we create meets the highest standards—ours. It also means <strong>faster turnaround times, more reliable service, and the ability to respond to customer requests</strong> with care and precision.</p><p>We believe that when you buy something personal, the experience should be just as thoughtful as the product itself. That’s why <strong>we stay hands-on from start to finish—so you get something truly special</strong>, made just for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Qw3HAc",
+        "heading_DqpXmp",
+        "richtext_kwzDxL"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/D2101C45-5FBB-4519-953C-78CAD5C16FA6_1_201_a.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -204,6 +242,7 @@
     "main",
     "before_after_YCpKTU",
     "image_with_text_TFBadL",
+    "image_with_text_n8EpMQ",
     "related-products"
   ]
 }
