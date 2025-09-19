@@ -134,10 +134,55 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "images_with_text_scroll_CK9RwT": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_8fL3JN": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/63b58ab1-866b-4acb-a230-5a89eb371561.webp",
+            "subheading": "",
+            "title": "Custom Photo",
+            "content": "<p>Choose clear, bright, high-quality picture<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_qFCycb": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "#2",
+            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_8fL3JN",
+        "image_with_text_qFCycb"
+      ],
+      "name": "t:sections.images_with_text_scroll.presets.images_with_text_scroll.name",
+      "settings": {
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "background": "#ffffff",
+        "text_color": "#5c5c5c",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_3qJdn3"
+    "image_with_text_3qJdn3",
+    "images_with_text_scroll_CK9RwT"
   ]
 }
