@@ -196,12 +196,49 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "scrolling_content_L3whxk": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_r3FRHG": {
+          "type": "text",
+          "settings": {
+            "text": "We Typically sell out weeks before mother's day"
+          }
+        },
+        "text_jXLETb": {
+          "type": "text",
+          "settings": {
+            "text": "We Typically sell out weeks before mother's day"
+          }
+        }
+      },
+      "block_order": [
+        "text_r3FRHG",
+        "text_jXLETb"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.1,
+        "scroll_direction": "left",
+        "text_font": "heading",
+        "text_font_size_mobile": 10,
+        "text_font_size_desktop": 18,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 135,
+        "item_horizontal_spacing_desktop": 135,
+        "background": "#7e7e7e",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "image_with_text_Pb8dVB",
-    "images_with_text_scroll_myUYqR"
+    "images_with_text_scroll_myUYqR",
+    "scrolling_content_L3whxk"
   ]
 }
