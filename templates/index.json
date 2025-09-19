@@ -173,11 +173,29 @@
         "circle_button_background": "#ffffff",
         "circle_button_text_color": "#1c1c1c"
       }
+    },
+    "newsletter_DkdHgY": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.newsletter.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "Keep me updated",
+        "title": "Newsletter",
+        "content": "",
+        "button_text": "Subscribe",
+        "text_color": "#1c1c1c",
+        "button_background": "#ffffff",
+        "button_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collections",
-    "collection-list"
+    "collection-list",
+    "newsletter_DkdHgY"
   ]
 }
