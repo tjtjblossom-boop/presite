@@ -153,9 +153,10 @@
         "image_with_text_qFCycb": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/c1f6bbcf-dafc-4a8c-8633-7fdef194894d_0ca758e9-83cd-4a36-bb10-36db23125568.webp",
             "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
+            "title": "High-Quality Material",
+            "content": "<p>Durable, long-lasting material<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -172,17 +173,50 @@
         "text_alignment": "center",
         "heading_tag": "h3",
         "background": "#ffffff",
-        "text_color": "#5c5c5c",
+        "text_color": "#272727",
         "button_background": "#ffffff",
         "button_text_color": "#1c1c1c",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "image_with_text_adqLem": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Vx89ri": {
+          "type": "heading",
+          "settings": {
+            "text": "A Gift They Will CHerish Forever",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_WcqGrp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether for Valentines Day, Birthdays, Anniversaries, or just a special occasion, our photo projection bracelet will leave your loved one speechless upon opening.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vx89ri",
+        "richtext_WcqGrp"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/662e8933-9b00-44d8-8ea1-e8d62293262f.webp",
+        "mobile_image": "shopify://shop_images/662e8933-9b00-44d8-8ea1-e8d62293262f.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
       }
     }
   },
   "order": [
     "main",
     "image_with_text_3qJdn3",
-    "images_with_text_scroll_CK9RwT"
+    "images_with_text_scroll_CK9RwT",
+    "image_with_text_adqLem"
   ]
 }
