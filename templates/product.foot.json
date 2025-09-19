@@ -129,6 +129,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/pexels-photo-6902340.webp",
+        "mobile_image": "shopify://shop_images/pexels-photo-6902340.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -138,34 +139,28 @@
     "image_with_text_3wEzm8": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_VPKU7b": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_qWeGRM": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "FootTrace AI™",
             "heading_tag": "h1"
           }
         },
         "richtext_UWJ7bV": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>At MadeByMe, we use advanced digital imaging technology to extract the fine details of your fingerprint, handprint, or footprint — no ink required!</p><p><br/><strong>You Simply Snap a Photo</strong> – Take a well-lit, close-up picture of your finger, hand, or foot using your phone. No special setup is needed!</p><p><br/><strong>We Digitally Enhance the Print </strong>– Using our AI-powered image processing, we extract the unique ridges and details from your photo, ensuring a perfectly clear and accurate print.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_VPKU7b",
         "heading_qWeGRM",
         "richtext_UWJ7bV"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/Depositphotos_505159723_L.webp",
         "reveal_on_scroll": true,
         "image_position": "end",
         "content_width": "sm",
