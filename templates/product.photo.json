@@ -141,9 +141,10 @@
         "image_with_text_HptTpB": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Ascend_Mobility_20.webp",
             "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
+            "title": "LED Backlight",
+            "content": "<p>USB-Powered, No Battery Required<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
