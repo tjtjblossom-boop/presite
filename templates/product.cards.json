@@ -242,6 +242,44 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "rich_text_fm3AY4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XLmYjU": {
+          "type": "heading",
+          "settings": {
+            "text": "Specifications",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_7XJhN4": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Quantity:</strong> 54 cards",
+            "heading_tag": "h6"
+          }
+        },
+        "heading_8rtTmM": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Size:</strong> 2.5IN x 3.5IN",
+            "heading_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XLmYjU",
+        "heading_7XJhN4",
+        "heading_8rtTmM"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -249,6 +287,7 @@
     "image_with_text_JK8gap",
     "image_with_text_HdTAng",
     "images_with_text_scroll_TGXBxn",
-    "image_with_text_Vc6Lzh"
+    "image_with_text_Vc6Lzh",
+    "rich_text_fm3AY4"
   ]
 }
