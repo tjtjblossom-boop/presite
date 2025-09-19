@@ -210,12 +210,61 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "faq_DDhKmM": {
+      "type": "faq",
+      "blocks": {
+        "category_qftbC7": {
+          "type": "category",
+          "settings": {
+            "title": "",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_iGzBWN": {
+          "type": "question",
+          "settings": {
+            "question": "How Do I Upload My Custom Image & Text?",
+            "answer": "<p>Upload your custom image and text in the section above, right before adding to cart!<br/><br/></p>"
+          }
+        },
+        "question_HJYfDG": {
+          "type": "question",
+          "settings": {
+            "question": "Shipping Information?",
+            "answer": "<p>We ship to the U.S, Canada, UK, and Germany. Shipping time is 4-8 days.</p><p>Issues with providing customizations can cause up to a 7 day delay on your order. Please make sure your image and text are attached correctly at checkout!</p>"
+          }
+        },
+        "question_yUMAEW": {
+          "type": "question",
+          "settings": {
+            "question": "Have A Different Question?",
+            "answer": "<p>You can contact us via our contact page, and we would be happy to assist you!<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_qftbC7",
+        "question_iGzBWN",
+        "question_HJYfDG",
+        "question_yUMAEW"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Need help?",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_BF4dNU",
     "images_with_text_scroll_4z6i4R",
-    "image_with_text_ayTfXz"
+    "image_with_text_ayTfXz",
+    "faq_DDhKmM"
   ]
 }
