@@ -185,11 +185,11 @@
         "title": "Newsletter",
         "content": "",
         "button_text": "Subscribe",
-        "text_color": "#d6d6d6",
+        "text_color": "#000000",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 83
+        "overlay_opacity": 0
       }
     }
   },
