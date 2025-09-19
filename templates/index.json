@@ -148,7 +148,7 @@
         "collection-3": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "mothers",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -165,7 +165,7 @@
         "collection-4": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "grandparents",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
