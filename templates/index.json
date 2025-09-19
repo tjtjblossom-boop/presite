@@ -176,9 +176,7 @@
     },
     "newsletter_DkdHgY": {
       "type": "newsletter",
-      "custom_css": [
-        "shopify-section--newsletter{background: black;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
         "separate_section_with_border": true,
@@ -187,11 +185,11 @@
         "title": "Newsletter",
         "content": "",
         "button_text": "Subscribe",
-        "text_color": "#1c1c1c",
+        "text_color": "#d6d6d6",
         "button_background": "#ffffff",
         "button_text_color": "#000000",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 83
       }
     }
   },
