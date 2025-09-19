@@ -18,11 +18,15 @@
         },
         "title": {
           "type": "title",
-          "settings": {}
+          "settings": {
+            "heading_tag": "h3"
+          }
         },
         "price": {
           "type": "price",
-          "settings": {}
+          "settings": {
+            "show_taxes_notice": false
+          }
         },
         "payment_terms": {
           "type": "payment_terms",
@@ -34,11 +38,19 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
-          "settings": {}
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
         },
         "quantity_selector": {
           "type": "quantity_selector",
@@ -46,15 +58,24 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "settings": {}
-        },
-        "pickup_availability": {
-          "type": "pickup_availability",
-          "settings": {}
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
         },
         "complementary_products": {
           "type": "complementary_products",
-          "settings": {}
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
         }
       },
       "block_order": [
@@ -69,15 +90,92 @@
         "buy_buttons",
         "complementary_products"
       ],
-      "settings": {}
+      "settings": {
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {}
+    "image_with_text_hXJMLB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EnVqec": {
+          "type": "heading",
+          "settings": {
+            "text": "How To Capture Footprint",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8KwHYD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Take Photo of the Foot and Upload </strong>(FootTrace AI™ Technology - see below)</p><p><strong>OR</strong></p><p><strong>Use Ink Pad to Create Footprint Impression on Paper, Take Photo and Upload</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EnVqec",
+        "richtext_8KwHYD"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/pexels-photo-6902340.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_3wEzm8": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_VPKU7b": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_qWeGRM": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_UWJ7bV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VPKU7b",
+        "heading_qWeGRM",
+        "richtext_UWJ7bV"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "image_with_text_hXJMLB",
+    "image_with_text_3wEzm8"
   ]
 }
