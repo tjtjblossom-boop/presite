@@ -115,7 +115,7 @@
           "type": "collection",
           "settings": {
             "collection": "couples",
-            "expand_collection": false,
+            "expand_collection": true,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
             "title": "",
@@ -131,7 +131,7 @@
         "collection-2": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "fathers",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
