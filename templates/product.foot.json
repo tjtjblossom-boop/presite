@@ -342,15 +342,15 @@
         "question_PdN88a": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "question": "Shipping Information?",
+            "answer": "<p>We ship to the U.S, Canada, UK, and Germany. Once shipped, delivery time is 4-8 days.</p><p>Issues with providing customizations can cause up to a 7 day delay on your order. Please make sure your image and text are attached correctly at checkout!</p>"
           }
         },
         "question_TwGbRY": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "question": "Have A Different Question?",
+            "answer": "<p>You can contact us via our contact page, and we would be happy to assist you!<br/><br/></p>"
           }
         }
       },
