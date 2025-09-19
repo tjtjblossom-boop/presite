@@ -152,6 +152,37 @@
         "cursor_arrows_color": "#000000"
       }
     },
+    "image_with_text_TFBadL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_AmhCNj": {
+          "type": "heading",
+          "settings": {
+            "text": "Made With <em>925 Sterling Silver</em>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_TKEnEb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Made to look sleek, elegant, and refined<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AmhCNj",
+        "richtext_TKEnEb"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/You_Me_Forever_c128bbe3-07c9-4e21-a87c-a114cff0fe8c.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -172,6 +203,7 @@
   "order": [
     "main",
     "before_after_YCpKTU",
+    "image_with_text_TFBadL",
     "related-products"
   ]
 }
