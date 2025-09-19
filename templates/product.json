@@ -32,12 +32,6 @@
           "type": "payment_terms",
           "settings": {}
         },
-        "zoorix_cross_sell_zrx_vd_mLLLcm": {
-          "type": "shopify://apps/zoorix-cross-sell/blocks/zrx-vd/51fffd07-f9df-4d6a-b901-6d14b243dcad",
-          "settings": {
-            "offer_id": ""
-          }
-        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -89,7 +83,6 @@
         "title",
         "price",
         "payment_terms",
-        "zoorix_cross_sell_zrx_vd_mLLLcm",
         "separator",
         "description",
         "variant_picker",
