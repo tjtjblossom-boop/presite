@@ -173,9 +173,10 @@
         "image_with_text_9HYwyb": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-24_at_8.23.36_PM.webp",
             "subheading": "",
-            "title": "#1",
-            "content": "<p>Welcome your customers to your store by sharing temporary offers or explaining to them what your products are about.</p>",
+            "title": "Custom Photos",
+            "content": "<p>Upload either 1, 4, or 13 photos</p><p><strong>-1 Photo:</strong> All Cards Have Same Custom Photo</p><p><strong>-4 Photos:</strong> Each Suit Has Different Custom Photo (e.g. all hearts, all clubs, etc. have same photo)</p><p><strong>-13 Photos: </strong>Each Number Has Different Custom Photo (e.g. all kings, all 6s, etc. have same photo)</p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -184,9 +185,10 @@
         "image_with_text_PikNPN": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-24_at_8.23.47_PM.webp",
             "subheading": "",
-            "title": "#2",
-            "content": "<p>Create trust with your customers by explaining the story of your brand. Share your values or what is important to you.</p>",
+            "title": "High-Quality Material",
+            "content": "<p>Durable, long-lasting material<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -209,12 +211,44 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "image_with_text_Vc6Lzh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_a8tUVH": {
+          "type": "heading",
+          "settings": {
+            "text": "A Gift They Will Cherish Forever",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_jnwwtt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether for Valentines Day, Birthdays, Anniversaries, or just a special occasion, our custom photo playing cards will leave your loved one speechless upon opening.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a8tUVH",
+        "richtext_jnwwtt"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/Screenshot_2025-02-24_at_8.25.44_PM.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_JK8gap",
     "image_with_text_HdTAng",
-    "images_with_text_scroll_TGXBxn"
+    "images_with_text_scroll_TGXBxn",
+    "image_with_text_Vc6Lzh"
   ]
 }
