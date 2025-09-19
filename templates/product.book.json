@@ -129,6 +129,7 @@
       "settings": {
         "separate_section_with_border": true,
         "image": "shopify://shop_images/Screenshot_2025-04-08_at_11.36.06_AM.webp",
+        "mobile_image": "shopify://shop_images/Screenshot_2025-04-08_at_11.36.06_AM.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -199,20 +200,20 @@
         "subheading_Y9mRLG": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
+            "text": ""
           }
         },
         "heading_bmg9Wg": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "Ask the Questions You Often Forget To — Before Its Too Late",
             "heading_tag": "h1"
           }
         },
         "richtext_AzfmXm": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>What made her smile as a child? What dreams did she hold close? What were the hardest moments, and how did she get through them? This journal gives her the space to share the pieces of her life that shaped her, so her story lives on long after the words are written.<br/><br/></p>"
           }
         }
       },
@@ -224,6 +225,8 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/Screenshot_2025-04-08_at_11.43.52_AM.webp",
+        "mobile_image": "shopify://shop_images/Screenshot_2025-04-08_at_11.43.52_AM.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -233,37 +236,30 @@
     "scrolling_content_RDTBqx": {
       "type": "scrolling-content",
       "blocks": {
-        "text_QCpCgn": {
-          "type": "text",
-          "settings": {
-            "text": "Welcome to our shop"
-          }
-        },
         "text_GqUN7p": {
           "type": "text",
           "settings": {
-            "text": "Discover our products"
+            "text": "We Typically sell out weeks before mother's day"
           }
         }
       },
       "block_order": [
-        "text_QCpCgn",
         "text_GqUN7p"
       ],
       "name": "t:sections.scrolling_content.presets.scrolling_content.name",
       "settings": {
         "separate_section_with_border": true,
-        "scrolling_speed": 0.3,
+        "scrolling_speed": 0.1,
         "scroll_direction": "left",
         "text_font": "heading",
-        "text_font_size_mobile": 40,
-        "text_font_size_desktop": 96,
-        "section_vertical_spacing_mobile": 60,
-        "section_vertical_spacing_desktop": 80,
-        "item_horizontal_spacing_mobile": 80,
-        "item_horizontal_spacing_desktop": 120,
-        "background": "",
-        "text_color": ""
+        "text_font_size_mobile": 22,
+        "text_font_size_desktop": 10,
+        "section_vertical_spacing_mobile": 10,
+        "section_vertical_spacing_desktop": 10,
+        "item_horizontal_spacing_mobile": 10,
+        "item_horizontal_spacing_desktop": 10,
+        "background": "#545454",
+        "text_color": "#000000"
       }
     },
     "faq_gnUL89": {
@@ -272,7 +268,7 @@
         "category_yAAHxg": {
           "type": "category",
           "settings": {
-            "title": "Order",
+            "title": "",
             "icon": "none",
             "icon_width": 16
           }
@@ -280,22 +276,29 @@
         "question_k3NY9Q": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "question": "How Many Prompts Are There?",
+            "answer": "<p>There are over 250 guided prompts included! The carefully curated questions will gently guide your mom down memory lane, making it simple and fun for her to reminisce, write about, and share her life’s tales.<br/><br/></p>"
           }
         },
         "question_cDntbg": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my orders?",
-            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "question": "How Many Pages Are There?",
+            "answer": "<p>Our book has 110 beautifully designed pages<br/><br/></p>"
           }
         },
         "question_rjwrHp": {
           "type": "question",
           "settings": {
-            "question": "Any question?",
-            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "question": "Shipping Information?",
+            "answer": "<p>We ship to the U.S, Canada, UK, and Germany. Once shipped, delivery time is 4-8 days.</p><p>Issues with providing customizations can cause up to a 7 day delay on your order. Please make sure your image and text are attached correctly at checkout!</p>"
+          }
+        },
+        "question_U3a76c": {
+          "type": "question",
+          "settings": {
+            "question": "Have A Different Question?",
+            "answer": "<p>You can contact us via our contact page, and we would be happy to assist you!<br/><br/></p>"
           }
         }
       },
@@ -303,13 +306,14 @@
         "category_yAAHxg",
         "question_k3NY9Q",
         "question_cDntbg",
-        "question_rjwrHp"
+        "question_rjwrHp",
+        "question_U3a76c"
       ],
       "name": "t:sections.faq.presets.faq.name",
       "settings": {
         "separate_section_with_border": true,
         "show_categories": false,
-        "subheading": "Need help?",
+        "subheading": "",
         "title": "Frequently Asked Questions",
         "content": ""
       }
