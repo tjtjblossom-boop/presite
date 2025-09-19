@@ -153,9 +153,10 @@
         "image_with_text_98VY9M": {
           "type": "image_with_text",
           "settings": {
+            "image": "shopify://shop_images/1005c2d1-c4c2-481b-8644-7c4475d23746_409b1a41-9e84-4f38-8b67-367579e005a8.webp",
             "subheading": "",
-            "title": "#3",
-            "content": "<p>Share information about your product with your customers. Describe a product, and share info about your production process...</p>",
+            "title": "High-Quality Material",
+            "content": "<p>Durable, long-lasting material<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -182,34 +183,28 @@
     "image_with_text_ayTfXz": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_tGxenU": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_LPGYic": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "Perfect Gift",
             "heading_tag": "h1"
           }
         },
         "richtext_GXc8T8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Perfect gift for Valentine's Day, Anniversaries, or Birthdays<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "subheading_tGxenU",
         "heading_LPGYic",
         "richtext_GXc8T8"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
+        "image": "shopify://shop_images/020a2639-de31-47e4-a5ff-02485c06e35f_jpg_79f84649-b02e-4b89-9f74-6b68be2385fe.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
