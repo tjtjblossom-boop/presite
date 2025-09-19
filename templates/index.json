@@ -176,6 +176,9 @@
     },
     "newsletter_DkdHgY": {
       "type": "newsletter",
+      "custom_css": [
+        "section{background: black;}"
+      ],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
         "separate_section_with_border": true,
@@ -186,7 +189,7 @@
         "button_text": "Subscribe",
         "text_color": "#1c1c1c",
         "button_background": "#ffffff",
-        "button_text_color": "",
+        "button_text_color": "#000000",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
