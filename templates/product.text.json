@@ -211,12 +211,108 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "rich_text_e8CKLn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NxdVXj": {
+          "type": "heading",
+          "settings": {
+            "text": "Specifications",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_eJypAp": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Cross Size:</strong> 20x14mm",
+            "heading_tag": "h6"
+          }
+        },
+        "heading_4hBKCE": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Chain Length:</strong> 45cm + 5cm",
+            "heading_tag": "h6"
+          }
+        },
+        "heading_eCJ87r": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Available Finishes:</strong> Gold, Silver, Rose Gold, & Black",
+            "heading_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NxdVXj",
+        "heading_eJypAp",
+        "heading_4hBKCE",
+        "heading_eCJ87r"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "faq_caNqF7": {
+      "type": "faq",
+      "blocks": {
+        "category_6L6cBW": {
+          "type": "category",
+          "settings": {
+            "title": "",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_rmm8Kn": {
+          "type": "question",
+          "settings": {
+            "question": "How Do I Upload My Custom Bible Verse?",
+            "answer": "<p>Write your custom bible verse in the section above, right before adding to cart!<br/><br/></p>"
+          }
+        },
+        "question_gnKWeh": {
+          "type": "question",
+          "settings": {
+            "question": "Shipping Information?",
+            "answer": "<p>We ship to the U.S, Canada, UK, and Germany. Once shipped, delivery time is 4-8 days.</p><p>Issues with providing customizations can cause up to a 7 day delay on your order. Please make sure your image and text are attached correctly at checkout!</p>"
+          }
+        },
+        "question_3chdiJ": {
+          "type": "question",
+          "settings": {
+            "question": "Have A Different Question?",
+            "answer": "<p>You can contact us via our contact page, and we would be happy to assist you!<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_6L6cBW",
+        "question_rmm8Kn",
+        "question_gnKWeh",
+        "question_3chdiJ"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_MjVJhH",
     "images_with_text_scroll_UNF47m",
-    "image_with_text_zArKR7"
+    "image_with_text_zArKR7",
+    "rich_text_e8CKLn",
+    "faq_caNqF7"
   ]
 }
