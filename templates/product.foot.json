@@ -197,12 +197,58 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "images_with_text_scroll_t3UAMw": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_6qXxQN": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-20_at_12.25.51_AM.webp",
+            "subheading": "",
+            "title": "Custom Footprint + Text",
+            "content": "<p>See section below for instructions on how to capture footprint<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_xyQxhX": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2025-02-20_at_12.26.13_AM.webp",
+            "subheading": "",
+            "title": "High-Quality Material",
+            "content": "<p>Durable, long-lasting material<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_6qXxQN",
+        "image_with_text_xyQxhX"
+      ],
+      "name": "t:sections.images_with_text_scroll.presets.images_with_text_scroll.name",
+      "settings": {
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "background": "#ffffff",
+        "text_color": "#343434",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_hXJMLB",
     "image_with_text_3wEzm8",
-    "image_with_text_fwYVkT"
+    "image_with_text_fwYVkT",
+    "images_with_text_scroll_t3UAMw"
   ]
 }
