@@ -11,7 +11,7 @@
   "current": {
     "section_vertical_spacing": "md",
     "heading_color": "#1c1c1c",
-    "text_color": "#1c1c1c",
+    "text_color": "#000000",
     "background": "#efefef",
     "secondary_background": "#000000",
     "success_color": "#307a07",
@@ -20,7 +20,7 @@
     "header_text_color": "#1c1c1c",
     "footer_background": "#ffffff",
     "footer_text_color": "#1c1c1c",
-    "primary_button_background": "#bcbcbc",
+    "primary_button_background": "#000000",
     "primary_button_text_color": "#ffffff",
     "modal_background": "#ffffff",
     "modal_text_color": "#1c1c1c",
