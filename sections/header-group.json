@@ -17,19 +17,12 @@
         "message_6FKkWM": {
           "type": "message",
           "settings": {
-            "text": "Announce something here"
-          }
-        },
-        "message-1": {
-          "type": "message",
-          "settings": {
-            "text": "Announce something here"
+            "text": "All Pieces Ethically Made in The USA, Days Shipping"
           }
         }
       },
       "block_order": [
-        "message_6FKkWM",
-        "message-1"
+        "message_6FKkWM"
       ],
       "settings": {
         "enable_sticky": false,
