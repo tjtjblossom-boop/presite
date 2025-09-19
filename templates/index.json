@@ -86,7 +86,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "couples",
             "products_count": 8,
             "title": "",
             "link_url": "",
