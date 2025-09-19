@@ -26,7 +26,8 @@
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/ChatGPT_Image_Jul_13_2025_05_00_15_PM.webp",
+        "image": "shopify://shop_images/il_1588xN.6555806746_m4iq_1fff191f-0ab6-4ebb-996c-d1c3a6c51545.webp",
+        "mobile_image": "shopify://shop_images/1h5z4e8-il_1588xN.6555806746_m4iq-ymq.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
