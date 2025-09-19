@@ -177,7 +177,7 @@
     "newsletter_DkdHgY": {
       "type": "newsletter",
       "custom_css": [
-        "section{background: black;}"
+        "shopify-section--newsletter{background: black;}"
       ],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
