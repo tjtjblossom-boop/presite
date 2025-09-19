@@ -274,6 +274,52 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "rich_text_pU8PDb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aFCyqz": {
+          "type": "heading",
+          "settings": {
+            "text": "Dimensions",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_JDh9Ma": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Pendant Size:</strong> 2CM Radius",
+            "heading_tag": "h6"
+          }
+        },
+        "heading_NjJfRa": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Chain Length:</strong> 45CM + 5CM",
+            "heading_tag": "h6"
+          }
+        },
+        "heading_denzVU": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Available Finishes:</strong> Gold, Silver, Rose Gold",
+            "heading_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aFCyqz",
+        "heading_JDh9Ma",
+        "heading_NjJfRa",
+        "heading_denzVU"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -282,6 +328,7 @@
     "image_with_text_3wEzm8",
     "image_with_text_fwYVkT",
     "images_with_text_scroll_t3UAMw",
-    "image_with_text_Cmf4mn"
+    "image_with_text_Cmf4mn",
+    "rich_text_pU8PDb"
   ]
 }
