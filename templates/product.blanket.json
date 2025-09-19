@@ -151,11 +151,57 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
+    },
+    "images_with_text_scroll_myUYqR": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_Wq8GPG": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Photo5_c60164f5-271d-4824-990a-95c8fdf6bd3b.webp",
+            "subheading": "",
+            "title": "Attach A Photo or Custom file...",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_VCmqd7": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify://shop_images/Photo1_28d2a4bf-d6db-4005-ae8b-4941788ab2ce.webp",
+            "subheading": "",
+            "title": "And Watch your creation come to life!",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_Wq8GPG",
+        "image_with_text_VCmqd7"
+      ],
+      "name": "t:sections.images_with_text_scroll.presets.images_with_text_scroll.name",
+      "settings": {
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "background": "#ffffff",
+        "text_color": "#383838",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "image_with_text_Pb8dVB"
+    "image_with_text_Pb8dVB",
+    "images_with_text_scroll_myUYqR"
   ]
 }
