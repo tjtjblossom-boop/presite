@@ -320,6 +320,54 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
+    },
+    "faq_HApqmV": {
+      "type": "faq",
+      "blocks": {
+        "category_mgtJNB": {
+          "type": "category",
+          "settings": {
+            "title": "",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_nVNNkc": {
+          "type": "question",
+          "settings": {
+            "question": "How Do I Upload My Custom Footprint & Text?",
+            "answer": "<p>Upload your custom footprint image and text in the section above, right before adding to cart! For instructions on how to capture footprint, see \"How to Capture Footprint\" Section.<br/><br/></p>"
+          }
+        },
+        "question_PdN88a": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "question_TwGbRY": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_mgtJNB",
+        "question_nVNNkc",
+        "question_PdN88a",
+        "question_TwGbRY"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -329,6 +377,7 @@
     "image_with_text_fwYVkT",
     "images_with_text_scroll_t3UAMw",
     "image_with_text_Cmf4mn",
-    "rich_text_pU8PDb"
+    "rich_text_pU8PDb",
+    "faq_HApqmV"
   ]
 }
